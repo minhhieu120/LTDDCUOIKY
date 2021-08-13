@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="CHI TIẾT SẢN PHẨM"/>
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/Hinh"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/tenmon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textt"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/giamon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="test" />
+    <EditText
+        android:id="@+id/mota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="test" />
+    <Button
+        android:id="@+id/chinhsua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="400dp"
+        android:width="150dp"
+        android:height="40dp"
+        android:backgroundTint="#00BCD4"
+
+        android:radius="26dp"
+        android:right="0dp"
+        android:text="Chỉnh sửa"
+        android:top="0dp" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:width="150dp"
+        android:height="40dp"
+        android:backgroundTint="#11CC19"
+
+        android:radius="26dp"
+        android:right="0dp"
+        android:text="Trở về"
+        android:top="0dp" />
+</RelativeLayout>

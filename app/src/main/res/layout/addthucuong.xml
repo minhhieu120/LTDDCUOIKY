@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:text="Thêm món" />
+    <EditText
+        android:id="@+id/editTextADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên món"
+        android:layout_marginTop="100dp" />
+    <EditText
+        android:id="@+id/editTextMota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"
+        android:layout_marginTop="170dp" />
+    <EditText
+        android:id="@+id/editTextGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá bán"
+        android:layout_marginTop="240dp" />
+    <Button
+        android:id="@+id/btnthem"
+        android:text="Thêm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:onClick="them" />
+    <Button
+        android:id="@+id/btnhuy"
+        android:text="Hủy"
+        android:onClick="them"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="40dp" />
+</RelativeLayout>
